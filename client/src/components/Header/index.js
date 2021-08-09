@@ -13,7 +13,7 @@ const useStyles = createUseStyles({
 export const Header = (props) => {
     const classes = useStyles();
 
-    const currentAvatar = 'https://abudhabitiming.com/wp-content/uploads/2020/01/test-img.jpg';
+    const currentAvatar = 'https://prvera.ru/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png';
 
     return (
         <div className={classes.container}>
