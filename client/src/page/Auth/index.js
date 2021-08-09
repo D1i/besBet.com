@@ -22,6 +22,8 @@ const useStyles = createUseStyles({
 });
 
 export const Auth = (props) => {
+    document.title = 'Вход';
+
     const classes = useStyles();
     return (
         <div className={classes.container}>

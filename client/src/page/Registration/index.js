@@ -18,6 +18,7 @@ const useStyles = createUseStyles({
 
 export const Registration = (props) => {
     const classes = useStyles();
+    document.title = 'Регистрация';
 
     const [firstPasswordField, setFirstPasswordField] = useState('');
     const [secondPasswordField, setSecondPasswordField] = useState('');

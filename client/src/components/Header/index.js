@@ -19,7 +19,8 @@ export const Header = (props) => {
         <div className={classes.container}>
             <Link linkTo='/'>Главная</Link>
             <a
-                target="_blank"
+                target='_blank'
+                rel='noopener noreferrer'
                 href='http://81.177.165.218:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config'
             >swagger</a>
             <Link linkTo='/auth'><Avatar url={currentAvatar}/></Link>
