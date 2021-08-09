@@ -1,3 +1,5 @@
-import { Main as MainPage } from './Main';
+import {Main as MainPage} from './Main';
+import {Auth as AuthPage} from './Auth';
+import {Registration as RegistrationPage} from './Registration';
 
-export { MainPage };
+export {MainPage, AuthPage, RegistrationPage};
