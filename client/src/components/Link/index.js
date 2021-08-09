@@ -3,13 +3,13 @@ import { Link as RouteLink } from 'react-router-dom';
 
 
 export const Link = ( {
-    text,
+    children,
     linkTo
 } ) => {
     return (
         <span>
             <RouteLink to={linkTo}>
-                {text}
+                {children}
             </RouteLink>
         </span>
     )

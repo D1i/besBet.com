@@ -7,7 +7,7 @@ function App() {
         <Router>
             <Header/>
             <Switch>
-                <Route path='/main'>
+                <Route path='/'>
                     <MainPage/>
                 </Route>
             </Switch>

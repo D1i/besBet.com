@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from "../Link";
+import { Link } from "../";
+import { Avatar } from "../";
 
 export const Header = ( props ) => {
+    const currentAvatar = 'https://abudhabitiming.com/wp-content/uploads/2020/01/test-img.jpg';
+
     return (
         <div>
-            <ul>
-                <li><Link text='Главная' linkTo='/main'/></li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
+            <Link linkTo='/'>Главная</Link>
+            <Link linkTo='/profile'><Avatar url={currentAvatar} /></Link>
         </div>
     )
 }
