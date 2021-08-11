@@ -18,6 +18,7 @@ export const Header = (props) => {
     return (
         <div className={classes.container}>
             <Link linkTo='/'>Главная</Link>
+            <Link linkTo='/showcase'>Витрина</Link>
             <a
                 target='_blank'
                 rel='noopener noreferrer'

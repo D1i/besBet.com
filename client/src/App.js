@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {MainPage, AuthPage, RegistrationPage} from "./page";
+import { MainPage, AuthPage, RegistrationPage, ShowcasePage } from "./page";
 import {Header, VersionInfo} from "./components";
 
 function App() {
@@ -13,6 +13,9 @@ function App() {
                 </Route>
                 <Route path='/registration'>
                     <RegistrationPage/>
+                </Route>
+                <Route path='/showcase'>
+                    <ShowcasePage />
                 </Route>
                 <Route path='/'>
                     <MainPage/>
